@@ -1,5 +1,6 @@
 # Movie-Recommendation
 This is _Content-Based_ ML Model with the _DATASET_: **imbd_top_1000.csv**. As per content based program you can only find the movies simmilar movies that are in Database Hence here is given the movies list.
+This code here includes _user-input function_ directly and also using interface **Gradio**. Using **TfidfVectorizer** form _sklearn library_ and _feature_extraction_ subpackage.
 
 ---
 Movies you can try checking: 
@@ -45,14 +46,10 @@ Movies you can try checking:
 40. **Zootopia**
 
 ---
-#### FLow of working:
-Load Dataset (CSV). 
-- Select relevant columns (title, genre, overview, stars)
-- Fill missing values (empty strings)
-- Combine text columns into one "content" string per movie.
-- Convert "content" strings into numerical vectors using TF-IDF.
-- Calculate cosine similarity between all movie vectors.
-- User inputs a movie title.
--  Find the movie's vector index.
--  Sort other movies by similarity score to this movie.
--  Return top-N most similar movie titles
+#### Example of the Outputs:
+![Alt Text](image1.png)
+![Alt Text](image.png)
+
+---
+In order to have any input and get Recommendation we can use APIs such as [API Refference]([https://openai.com](https://developer.themoviedb.org/v4/reference/intro/getting-started)).
+
