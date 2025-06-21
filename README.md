@@ -51,5 +51,5 @@ Movies you can try checking:
 ![Alt Text](image.png)
 
 ---
-In order to have any input and get Recommendation we can use APIs such as [API Refference]([https://developer.themoviedb.org/v4/reference/intro/getting-started]).
+In order to have any input and get Recommendation we can use APIs such as [API Refference](https://developer.themoviedb.org/v4/reference/intro/getting-started).
 
